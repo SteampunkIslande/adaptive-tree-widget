@@ -1,0 +1,61 @@
+{
+    "name" : "Root",
+    "subwidgets":
+    [
+        {
+            "name" : "Fixed",
+            "subwidgets":
+            [
+                {
+                    "name" : "Issue",
+                    "properties":
+                    [
+                        {
+                            "name" : "issue_number",
+                            "field" : "LineEdit"
+                        }
+                    ],
+                    "subwidgets":
+                    [
+                        {
+                            "name" : "In file(s)",
+                            "properties":
+                            [
+                                {
+                                    "name" : "file_names",
+                                    "field" : "MultipleFilesEdit"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "In class",
+                            "properties":
+                            [
+                                {
+                                    "name" : "class_names",
+                                    "field" : "MultipleTextEdit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Updated",
+            "subwidgets" :
+            [
+                {
+                    "name" : "Class",
+                    "properties" :
+                    [
+                        {
+                            "name" : "class_name",
+                            "field" : "LineEdit"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
